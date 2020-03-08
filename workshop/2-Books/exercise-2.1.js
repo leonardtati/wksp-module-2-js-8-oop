@@ -12,7 +12,20 @@
 // Console.log them to verify that all is working.
 
 class Book {
+    constructor(title, genre, author, read, startReadDate, endReadDate){
+        this.title = title;
+        this.genre = genre;
+        this.author = author;
+        this.read = read || false;
+        this.startReadDate = startReadDate || null;
+        this.endReadDate = endReadDate || null;
+
+    }
     
 }
-
+let book1 = new Book('sdfasdf','sdfsdf','sdfsdf');
+let book2 = new Book('sdfasdf','sdfsdf','sdfsdf');
+let book3 = new Book('sdfasdf','sdfsdf','sdfsdf');
+let book4 = new Book('sdfasdf','sdfsdf','sdfsdf');
+let book5 = new Book('sdfasdf','sdfsdf','sdfsdf');
 console.log(book1, book2, book3, book4, book5);

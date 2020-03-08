@@ -7,7 +7,7 @@ class Student {
         this.excitement = this.excitement  + 5;
     }
 
-    writeCode = () => { learn(); }
+    writeCode = () => { this.learn(); }  //REFERENCE FUNCTION WITH this.
 }
 
 let bob = new Student();
